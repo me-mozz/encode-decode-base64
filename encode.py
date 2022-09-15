@@ -1,7 +1,7 @@
 import base64
 
-Data = input("Base64 : ")
-mozz ="{data}"
+mozz ="Enter Base64"
+
 encode = base64.b64decode(mozz)
 print(encode)
 
